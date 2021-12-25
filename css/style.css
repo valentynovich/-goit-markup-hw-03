@@ -59,6 +59,19 @@ img {
   color: var(--blue);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* header */
 
 .header {
@@ -175,7 +188,6 @@ img {
 
 .work {
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .work-title {
@@ -234,10 +246,10 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+
   color: var(--blue);
-  height: 31px;
-  left: 150px;
+
+  margin-bottom: 20px;
 }
 
 .footer-logo-part {
@@ -247,6 +259,7 @@ img {
 .footer-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .footer-location {
@@ -254,6 +267,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
+  margin-bottom: 9px;
 }
 
 .footer-item-tell,
@@ -262,9 +276,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 /* portfolio */
+
+.portfolio {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
