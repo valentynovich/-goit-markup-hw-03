@@ -1,0 +1,304 @@
+:root {
+  --heading: #212121;
+  --blue: #2196f3;
+  --paragraph: #757575;
+  --bg: #2f303a;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover,
+.header-tell:hover,
+.header-mail:hover,
+.header-tell:focus,
+.header-mail:focus,
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue);
+}
+
+/* header */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--heading);
+}
+
+.curent {
+  color: var(--blue);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue);
+}
+
+.header-logo-part {
+  color: var(--heading);
+}
+
+.header-tell,
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--paragraph);
+}
+
+/* hero */
+.hero {
+  background: var(--bg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--blue);
+}
+
+.hero-btn-center {
+  left: 700px;
+  position: absolute;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background: #188ce8;
+}
+
+/* benefit */
+
+.benefits {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading);
+}
+
+.benefits-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--heading);
+}
+
+.benefits-pr {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--paragraph);
+}
+
+/* work */
+
+.work {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading);
+}
+
+/* team */
+
+.team {
+  background: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading);
+}
+
+.team-pr {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--paragraph);
+}
+
+/* footer */
+
+.footer {
+  background: var(--bg);
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+  height: 31px;
+  left: 150px;
+}
+
+.footer-logo-part {
+  color: var(--white);
+}
+
+.footer-address {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.footer-location {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.footer-item-tell,
+.footer-item-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading);
+  background: #f5f4fa;
+}
+
+.curent2 {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading);
+}
+
+.portfolio-pr {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--paragraph);
+}
