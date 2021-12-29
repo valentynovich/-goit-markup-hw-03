@@ -75,8 +75,11 @@ img {
 /* header */
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+.div-header {
+  display: flex;
 }
 
 .header-link {
@@ -97,10 +100,30 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue);
+  padding-top: 25px;
+  padding-bottom: 24px;
+  margin-right: 90px;
 }
 
 .header-logo-part {
   color: var(--heading);
+}
+
+.header-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 200px;
+}
+
+.header-item {
+  margin-right: 50px;
+}
+
+.header-info {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tell,
@@ -110,6 +133,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraph);
+  margin-right: 50px;
 }
 
 /* hero */
@@ -168,6 +192,10 @@ img {
   color: var(--heading);
 }
 
+.benefits-item {
+  margin-right: 30px;
+}
+
 .benefits-h3 {
   font-weight: 700;
   font-size: 14px;
@@ -175,6 +203,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--heading);
+  margin-bottom: 10px;
+}
+
+.benefits-list {
+  display: flex;
 }
 
 .benefits-pr {
@@ -197,6 +230,15 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--heading);
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-item {
+  margin-right: 30px;
 }
 
 /* team */
@@ -214,6 +256,16 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--heading);
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  margin-right: 30px;
+  background: #ffff;
 }
 
 .team-name {
@@ -223,6 +275,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--heading);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-pr {
@@ -231,6 +285,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--paragraph);
+  margin-bottom: 30px;
 }
 
 /* footer */
@@ -292,6 +347,14 @@ img {
   color: var(--white);
 }
 
+.div-button {
+  padding-bottom: 50px;
+}
+
+.portfolio-list-button {
+  display: flex;
+}
+
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -301,11 +364,15 @@ img {
   letter-spacing: 0.03em;
   color: var(--heading);
   background: #f5f4fa;
+  margin-right: 8px;
 }
 
 .curent2 {
   background: var(--blue);
   color: var(--white);
+}
+
+.portfolio-item {
 }
 
 .portfolio-title {
